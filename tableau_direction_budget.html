@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Tableau de bord</title>
+	<link rel="stylesheet" href="css/bootstrap_dashboard.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+	<!-- NAVBAR BEGIN -->
+	<div class="container-fluid">
+		<div class="row">
+			<div>
+				<nav class="navbar">
+					<div class="container-fluid">
+						<!-- Nav Header -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-1"
+								aria-expanded="false">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#"><span class="fa fa-home"></span><span class="link">
+									Home</span></a>
+						</div>
+						<!-- Nav Collapse -->
+						<div class="navbar-collapse collapse" id="collapse-1">
+							<!-- Nav Left -->
+							<ul class="nav navbar-nav">
+								<!-- Products -->
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+										aria-haspopup="true" aria-expanded="false">
+										<span class="fa fa-bars"></span><span class="link"> Menu</span> <span
+											class="fa fa-caret-down"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#"><span class="fa fa-power-off"></span> Logout</a></li>
+										<li><a href="#"><span class="fa fa-user"></span> Account</a></li>
+									</ul>
+								</li>
+								<!-- Services -->
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+										aria-haspopup="true" aria-expanded="false">
+										<span class="fa fa-chevron-circle-down"></span><span class="link"> Action</span>
+										<span class="fa fa-caret-down"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#"><span class="fa fa-plus-circle" /></span> Ajouter</a></li>
+										<li><a href="#"><span class="fa fa-download" /></span> Imprimer</a></li>
+										<li><a href="#"><span class="fa fa-database" /></span> Exporter</a></li>
+									</ul>
+								</li>
+								<!-- About -->
+								<li><a href="#"><span class="fa fa-bell"></span><span class="link">
+											Notification</span></a></li>
+								<!-- Contact -->
+								<li><a href="#"><span class="fa fa-info-circle"></span><span class="link">
+											Infos</span></a></li>
+							</ul>
+							<!-- Nav Right -->
+							<form class="navbar-form navbar-right">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Search">
+								</div>
+								<button type="submit" class="btn"><span class="fa fa-search"></span></button>
+							</form>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- NAVBAR END -->
+
+
+	<!-- CONTENT BEGIN -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- Mettez le contenu ici -->
+				<div class="direction__title text-center">
+					<span class="back__button">
+						<i class="fa fa-arrow-left" aria-hidden="true"></i>
+					</span>
+					<h1 class="title">DIRECTION BUDGET</h1>
+				</div>
+				<div class=" direction__content">
+					<ul class="services d-inline-block">
+						<li>
+							<span id="1">SSB</span>
+							<ul>
+								<li>
+									<a href="tableau_division_scme.html">SCME</a>
+								</li>
+								<li>
+									<a href="">SREX</a>
+								</li>
+								<li>
+									<a href="">SAEPB</a>
+								</li>
+								<li>
+									<a href="">SLF</a>
+								</li>
+								<li>
+									<a href="">SLR</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span>SRF </span>
+							<ul></ul>
+						</li>
+						<li>
+							<span>SSSA</span>
+							<ul></ul>
+						</li>
+						<li>
+							<span>SSPI</span>
+							<ul></ul>
+						</li>
+						<li>
+							<span>SRB</span>
+							<ul></ul>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- CONTENT END -->
+
+
+
+
+
+
+	<!-- JAVASCRIPT LINKS -->
+	<script
+		src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js">
+	</script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/nav.js"></script>
+	<script src="js/tableau_direction_controller.js"></script>
+	<script src="js/backButton.js"></script>
+
+
+
+
+</body>
+
+</html>

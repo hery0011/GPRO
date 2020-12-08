@@ -1,0 +1,10 @@
+Authentification : 
+Tableau de bord :
+Direction : == Service
+THEME : Colonnes
+Lignes : activités (ex : évaluation des risques incendies)
+Dans Activité : Tâches = checklist
+
+
+Service : 
+Disivion : 
